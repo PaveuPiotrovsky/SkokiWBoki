@@ -1,0 +1,46 @@
+<!-- Start of second page: #calendar -->
+    <div data-role="page" id="two">
+        
+        <div data-role="header">
+			<div class="darkBar">
+				<div class="logo"></div>
+			</div>
+        </div><!-- /header -->
+        
+        <div data-role="content" >
+			<h4>To-do list</h4>
+            <div data-role="fieldcontain">
+				<select name="select-choice-1" id="select-choice-1" data-native-menu="false">
+					<option value="standard">Standard: 7 day</option>
+					<option value="rush">Rush: 3 days</option>
+					<option value="express">Express: next day</option>
+					<option value="overnight">Overnight</option>
+				</select>
+				
+				<input type="date" name="date" id="date" value=""  />
+				
+				<div class="icons">
+					<div class="FLeft active">
+						<div class="icoTab1">
+							
+						</div>
+					</div>
+					<div class="FLeft">
+						<div class="icoTab2">
+							
+						</div>
+					</div>
+					<div class="FLeft">
+						<div class="icoTab3">
+							
+						</div>
+					</div>
+					<div class="FLeft">
+						<div class="icoTab4">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+        </div><!-- /content -->
+    </div><!-- /calendar -->

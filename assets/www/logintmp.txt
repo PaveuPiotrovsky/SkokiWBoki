@@ -1,0 +1,25 @@
+    <!-- Start of first page: #login -->
+    <div data-role="page" id="one">
+        
+        <div data-role="header">
+            <div class="logo"></div>
+        </div><!-- /header -->
+        
+        <div data-role="content" >
+            <div class="loginContent">
+                <div id="deviceready"></div>
+                <input type="text" class="ui-input-text ui-body-d ui-corner-all ui-shadow-inset" name="username" id="email" value="" placeholder="E-mail adress"/>
+                <input type="password" class="ui-input-text ui-body-d ui-corner-all ui-shadow-inset" name="username" id="password" value="" placeholder="Password"/>
+				<input id="rememberMe" type="checkbox" name="rememberMe" /><label for="rememberMe">Remember me</label>
+				<div class="clear"></div>
+                <div class="menu">
+                    <!---<div data-role="controlgroup">-->
+                    <a href="" data-theme="b" data-corners="true" data-shadow="false" data-role="button">LOGIN</a>
+                </div>
+            </div>
+        </div><!-- /content -->
+        <div data-role="popup" data-theme="a" data-overlay-theme="a" id="popupPadded" class="ui-content">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p class="alert"></p>
+        </div>
+    </div><!-- /login -->
